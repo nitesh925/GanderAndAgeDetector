@@ -2,6 +2,7 @@ import cv2
 import math
 import argparse
 
+
 def highlightFace(net, frame, conf_threshold=0.7):
     frameOpencvDnn=frame.copy()
     frameHeight=frameOpencvDnn.shape[0]
